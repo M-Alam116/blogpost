@@ -32,3 +32,26 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.animate {
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.item:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 769px) {
+  .item:nth-child(2n + 1) {
+    flex-direction: column;
+  }
+}

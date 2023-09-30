@@ -18,7 +18,13 @@ export default function Home() {
         </Link>
       </div>
       <div className="flex justify-center items-center">
-        <Image src="/hero.png" width={370} height={300} alt="" />
+        <Image
+          src="/hero.png"
+          width={370}
+          height={300}
+          alt=""
+          className="object-contain animate"
+        />
       </div>
     </div>
   );

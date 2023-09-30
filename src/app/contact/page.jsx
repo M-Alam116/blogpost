@@ -11,7 +11,7 @@ const ContactPage = () => {
             src="/contact.png"
             alt=""
             fill={true}
-            className="object-contain"
+            className="object-contain animate"
           />
         </div>
         <form className="flex w-full flex-col gap-[20px] mx-auto">
