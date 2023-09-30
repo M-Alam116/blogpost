@@ -12,6 +12,10 @@ const getData = (cat) => {
   return notFound();
 };
 
+export const metadata = {
+  title: "M Alam Portfolio",
+  description: "This is portfolio page.",
+};
 const PortfolioCategoryPage = ({ params }) => {
   const data = getData(params.category);
   return (
@@ -21,7 +25,10 @@ const PortfolioCategoryPage = ({ params }) => {
       </h1>
 
       {data.map((item) => (
-        <div className="item flex flex-col md:flex-row justify-between items-center gap-[50px] mt-[50px] mb-[20px] md:mb-[100px]" key={item.id}>
+        <div
+          className="item flex flex-col md:flex-row justify-between items-center gap-[50px] mt-[50px] mb-[20px] md:mb-[100px]"
+          key={item.id}
+        >
           <div className="w-full flex flex-col gap-[10px]">
             <h1 className="text-[28px] font-[700] text">{item.title}</h1>
             <p className="text-[16px] font-[500]">{item.desc}</p>

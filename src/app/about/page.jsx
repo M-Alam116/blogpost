@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata = {
+  title: "M Alam About",
+  description: "This is about page.",
+};
 const AboutPage = () => {
   return (
     <div className="flex flex-col gap-[2rem] pb-[50px]">

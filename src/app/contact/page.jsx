@@ -1,4 +1,9 @@
 import Image from "next/image";
+
+export const metadata = {
+  title: "M Alam Contact",
+  description: "This is contact page.",
+};
 const ContactPage = () => {
   return (
     <div className="py-[50px]">

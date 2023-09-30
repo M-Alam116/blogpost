@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata = {
+  title: "M Alam Portfolio",
+  description: "This is portfolio page.",
+};
 const PortfolioPage = () => {
   return (
     <div className="flex flex-col gap-[1rem]">
