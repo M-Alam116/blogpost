@@ -12,7 +12,7 @@ export default function Home() {
           global tech industry.
         </p>
         <Link href="/portfolio">
-          <button className="p-[12px] text-[14px] font-[500] rounded-[5px] border-none text-white w-fit bg-[#53c28b] cursor-pointer">
+          <button className="p-[12px] text-[14px] font-[500] rounded-[5px] border-none text-white w-fit bg-btnBg cursor-pointer">
             See Our Works
           </button>
         </Link>

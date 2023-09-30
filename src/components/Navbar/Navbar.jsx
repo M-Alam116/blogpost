@@ -48,7 +48,7 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
-        <button className="py-[5px] px-[8px] border-none text-white text-[14px] font-[500] bg-[#53c28b] cursor-pointer rounded-[3px]">
+        <button className="py-[5px] px-[8px] border-none text-white text-[14px] font-[500] bg-btnBg cursor-pointer rounded-[3px]">
           Logout
         </button>
       </div>

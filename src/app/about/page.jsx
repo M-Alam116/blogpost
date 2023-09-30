@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const AboutPage = () => {
   return (
-    <div className="flex flex-col gap-[2rem]">
+    <div className="flex flex-col gap-[2rem] pb-[50px]">
       <div className="relative w-[100%] h-[300px]">
         <Image
           src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -10,7 +10,7 @@ const AboutPage = () => {
           alt=""
           className="object-cover"
         />
-        <div className="absolute bottom-[20px] sm:left-[20px] bg-[#53c28b] p-[5px] text-white rounded-md">
+        <div className="absolute bottom-[20px] sm:left-[20px] bg-btnBg p-[5px] text-white rounded-md">
           <h1 className="text-[24px] font-[700]">Digital Storytellers</h1>
           <h2 className="text-[20px] font-[600]">
             Handcrafting award winning digital experiences
@@ -51,7 +51,7 @@ const AboutPage = () => {
             <br /> - Mobile Apps
           </p>
           <Link href="/contact">
-            <button className="bg-[#53c28b] w-fit px-[15px] py-[10px] rounded-[5px] text-white text-[14px] font-[500]">
+            <button className="bg-btnBg w-fit px-[15px] py-[10px] rounded-[5px] text-white text-[14px] font-[500]">
               Contact
             </button>
           </Link>

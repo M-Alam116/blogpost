@@ -13,6 +13,7 @@ module.exports = {
 
       backgroundColor: {
         primaryBg: "#111",
+        btnBg: "#53c28b"
       },
     },
   },
