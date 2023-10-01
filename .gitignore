@@ -2,7 +2,7 @@
 
 .env
 node_modules
-
+f
 # dependencies
 /node_modules
 /.pnp
