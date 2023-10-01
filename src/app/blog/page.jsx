@@ -33,7 +33,7 @@ const BlogPage = async () => {
               alt=""
               width={300}
               height={300}
-              className=""
+              className="w-[250] h-[180px]"
             />
           </div>
           <div className="md:col-span-3 flex flex-col gap-[10px]">
