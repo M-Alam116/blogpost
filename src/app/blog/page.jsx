@@ -5,20 +5,21 @@ export const metadata = {
   title: "M Alam Blog",
   description: "This is blog page.",
 };
-async function getData() {
-  const res = await fetch("http://localhost:3000/api/posts", {
-    cache: "no-store",
-  });
+// async function getData() {
+//   const res = await fetch("https://blogpost-9z7z1iy2z-m-alam116.vercel.app/api/posts", {
+//     cache: "no-store",
+//   });
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
+//   if (!res.ok) {
+//     throw new Error("Failed to fetch data");
+//   }
 
-  return res.json();
-}
+//   return res.json();
+// }
 
 const BlogPage = async () => {
-  const data = await getData();
+  const data = [];
+  // const data = await getData();
   return (
     <div className="pt-[30px] pb-[50px] flex flex-col gap-[3rem]">
       {data.map((item) => (
