@@ -6,7 +6,7 @@ export const metadata = {
   description: "This is blog page.",
 };
 async function getData() {
-  const res = await fetch("https://blogpost-alam.vercel.app/api/posts", {
+  const res = await fetch("/api/posts", {
     cache: "no-store",
   });
 
