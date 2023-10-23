@@ -6,7 +6,7 @@ export const metadata = {
   description: "This is blog page.",
 };
 async function getData() {
-  const res = await fetch("../api/posts", {
+  const res = await fetch(`${process.env.HOST}/api/posts`, {
     cache: "no-store",
   });
 
